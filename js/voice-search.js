@@ -35,6 +35,7 @@ const voiceRecognition = () =>{
     },1800)
 }
     recognition.start();
+	
 }
 
 document.querySelector('.form__microphone-icon').addEventListener("click",voiceSearchModalOpen);
